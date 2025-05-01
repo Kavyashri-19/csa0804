@@ -1,0 +1,6 @@
+c = input("Enter Sentence: ")
+print("SENTENCE: ",c)
+if c.lower() in 'aeiouAEIOU':
+    print("Vowel")
+else:
+    print("Consonant")
