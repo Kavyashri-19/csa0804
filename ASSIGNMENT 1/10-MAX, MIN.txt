@@ -1,0 +1,2 @@
+l = [5, 1, 9, 2]
+print("MAXIMUM: ",max(l),"\nMINIMUM: ", min(l))

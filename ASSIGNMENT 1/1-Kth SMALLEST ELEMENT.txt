@@ -1,0 +1,4 @@
+l = [5, 2, 8, 1, 9, 4, 10]
+k = int(input("Enter K:  "))
+l.sort()
+print("The ",k,"th smallest element is ",l[k-1])

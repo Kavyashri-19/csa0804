@@ -1,0 +1,17 @@
+19- SECOND LARGEST 
+n=int(input("Enter Number of Elements:"))
+l=[]
+print("Enter elements:")
+for i in range(n):
+    l.append(int(input()))
+lar=l[0]
+for i in l:
+    if i>=lar:
+        lar=i
+print("The first largest element is ",lar)
+lar2=l[0]
+for i in l:
+    if i<lar:
+        if i>=lar2:
+            lar2=i
+print("The second largest element is ",lar2)

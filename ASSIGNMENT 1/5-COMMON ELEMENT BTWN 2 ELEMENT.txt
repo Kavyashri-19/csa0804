@@ -1,0 +1,7 @@
+a = [1, 2, 3, 4, 5]
+b = [2, 3, 4]
+c = []
+for i in a:
+    if i in b and i not in c:
+        c.append(i)
+print("Common elements in the list are: ",c)
