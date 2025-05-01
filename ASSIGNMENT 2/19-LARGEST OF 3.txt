@@ -1,0 +1,10 @@
+a = int(input("NO.1: "))
+b = int(input("NO.2: "))
+c = int(input("NO.3: "))
+
+if a >= b and a >= c:
+    print(,"NO.1 "a," IS LARGER")
+elif b >= a and b >= c:
+    print("NO.2" ,b," IS LARGER")
+else:
+    print("NO.3" ,c, "IS LARGER")
