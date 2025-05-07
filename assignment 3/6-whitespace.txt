@@ -1,0 +1,7 @@
+def space(text):
+  return text.replace(" ", "")
+
+t = input("String: ")
+r = space(t)
+print(f"Original string: '{t}'")
+print(f"String without whitespace: '{r}'")

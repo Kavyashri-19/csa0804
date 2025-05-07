@@ -1,0 +1,11 @@
+def find(t, s):
+  index = t.find(s)
+  return index
+t = input("String: ")
+s = input("to find: ")
+index = find(t, s)
+
+if index != -1:
+  print(f"Substring '{s}' found at index: {index}")
+else:
+  print(f"Substring '{s}' not found.")

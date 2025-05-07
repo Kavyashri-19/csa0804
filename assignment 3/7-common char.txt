@@ -1,0 +1,11 @@
+def find(s1, s2):
+  c = ""
+  for i in s1:
+    if i in s2 and i not in c:
+      c += i
+  return c
+
+s1 = input("sentence1: ")
+s2 = input("sentence2: ")
+c = find(s1, s2)
+print(f"The common characters between '{s1}' and '{s2}' are: '{c}'")

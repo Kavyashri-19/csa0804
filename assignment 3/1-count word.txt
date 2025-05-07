@@ -1,0 +1,6 @@
+def cnt(n):
+    w = n.split()
+    return len(w)
+n = input("Enter sentence: ")
+cnt = cnt(n)
+print(f"The number of words in the string is: {cnt}")
